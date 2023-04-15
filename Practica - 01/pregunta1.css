@@ -1,0 +1,36 @@
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #h1 {
+    border-bottom: 2px solid purple;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 35px;
+    
+
+  }
+
+  #title {
+    margin-bottom: 20px;
+  }
+
+  #mid {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bolder;
+    color:blue;
+  }
+
+  #des {
+    color:purple;
+    font-weight: bolder;
+  }
